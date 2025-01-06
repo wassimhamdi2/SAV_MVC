@@ -1,0 +1,36 @@
+﻿@model MiniProjet.Models.Technicien
+
+@{
+    ViewData["Title"] = "Créer";
+}
+
+<div class="card shadow-lg">
+    <div class="card-header bg-primary text-white">
+        <h1>Créer un Nouveau Technicien</h1>
+    </div>
+    <div class="card-body">
+        <form asp-action="Create">
+            <div asp-validation-summary="ModelOnly" class="text-danger mb-3"></div>
+
+            <!-- Name Field -->
+            <div class="form-group mb-3">
+                <label asp-for="Name" class="form-label">Nom</label>
+                <input asp-for="Name" class="form-control" placeholder="Entrez le nom" />
+                <span asp-validation-for="Name" class="text-danger"></span>
+            </div>
+
+            <!-- Phone Field -->
+            <div class="form-group mb-3">
+                <label asp-for="Phone" class="form-label">Téléphone</label>
+                <input asp-for="Phone" class="form-control" placeholder="Entrez le téléphone" />
+                <span asp-validation-for="Phone" class="text-danger"></span>
+            </div>
+
+            <!-- Submit Button -->
+            <div class="form-group">
+                <button type="submit" class="btn btn-success btn-lg">Créer</button>
+                <a asp-action="Index" class="btn btn-secondary btn-lg ms-3">Retour à la liste</a>
+            </div>
+        </form>
+    </div>
+</div>

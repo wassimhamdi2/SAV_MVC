@@ -1,0 +1,36 @@
+﻿@model MiniProjet.Models.Complaint
+
+@{
+    ViewData["Title"] = "Details";
+}
+
+<div class="container mt-5">
+    <!-- Card for Complaint Details -->
+    <div class="card shadow-sm">
+        <div class="card-header bg-primary text-white">
+            <h1>Reclamation Details</h1>
+        </div>
+        <div class="card-body">
+            <!-- Row for displaying complaint details -->
+            <div class="row">
+                <dt class="col-sm-4"><strong>Description</strong></dt>
+                <dd class="col-sm-8">@Model.Description</dd>
+
+                <dt class="col-sm-4"><strong>Created At</strong></dt>
+                <dd class="col-sm-8">@Model.CreatedAt</dd>
+
+                <dt class="col-sm-4"><strong>Customer</strong></dt>
+                <dd class="col-sm-8">@Model.Customer?.Email</dd>
+
+                <dt class="col-sm-4"><strong>Article</strong></dt>
+                <dd class="col-sm-8">@Model.article?.Désignation</dd>
+            </div>
+        </div>
+        <div class="card-footer text-center">
+            <!-- Button to go back to the list of complaints -->
+            <a asp-action="MyReclamations" class="btn btn-secondary w-100">
+                Retourner a la list
+            </a>
+        </div>
+    </div>
+</div>

@@ -1,0 +1,53 @@
+﻿@model MiniProjet.Models.Complaint
+
+@{
+    ViewData["Title"] = "Create Reclamation";
+}
+
+<div class="container mt-5">
+    <!-- Title -->
+    <h1 class="mb-4 text-center">Ajouter Reclamation</h1>
+
+    <!-- Form Container -->
+    <form asp-action="Create" class="border p-4 bg-light shadow-sm rounded">
+        <!-- Validation Summary -->
+        <div asp-validation-summary="ModelOnly" class="text-danger mb-3"></div>
+
+        <!-- Description Field -->
+        <div class="form-group mb-3">
+            <label asp-for="Description" class="control-label">Description</label>
+            <input asp-for="Description" class="form-control" placeholder="Enter complaint description" />
+            <span asp-validation-for="Description" class="text-danger"></span>
+        </div>
+
+        <!-- Article Dropdown -->
+        <div class="form-group mb-4">
+            <label asp-for="ArticleId" class="control-label">Article</label>
+            <select asp-for="ArticleId" class="form-control">
+                <option value="">Select Article</option>
+                @if (ViewBag.Articles != null)
+                {
+                    @foreach (var article in ViewBag.Articles as IEnumerable<MiniProjet.Models.Article>)
+                    {
+                                <option value="@article.Id">@article.Désignation</option>
+                    }
+                }
+                else
+                {
+                        <option value="">No articles available</option>
+                }
+            </select>
+            <span asp-validation-for="ArticleId" class="text-danger"></span>
+        </div>
+
+        <!-- Submit Button -->
+        <button type="submit" class="btn btn-primary w-100">
+            Save
+        </button>
+    </form>
+
+    <!-- Back to List Button -->
+    <div class="mt-3 text-center">
+        <a asp-action="Index" class="btn btn-secondary">Retourner a la list</a>
+    </div>
+</div>

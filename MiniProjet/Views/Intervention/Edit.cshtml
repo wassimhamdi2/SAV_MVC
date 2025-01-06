@@ -1,0 +1,92 @@
+﻿@model MiniProjet.Models.Intervention
+
+@{
+    ViewData["Title"] = "Edit Intervention";
+}
+
+<h1 class="display-4 text-center mb-4">Edit Intervention</h1>
+
+<!-- Card Container for Form -->
+<div class="card shadow-lg">
+    <div class="card-header bg-primary text-white">
+        <h5>Modifier Intervention Details</h5>
+    </div>
+    <div class="card-body">
+        <!-- Form for Editing Intervention -->
+        <form asp-action="Edit">
+            <div asp-validation-summary="ModelOnly" class="text-danger mb-3"></div>
+
+            <!-- Hidden Id Field -->
+            <input type="hidden" asp-for="Id" />
+
+            <!-- Row for Date and Warranty -->
+            <div class="row">
+                <!-- Scheduled At Field -->
+                <div class="col-md-6">
+                    <div class="form-group">
+                        <label asp-for="ScheduledAt" class="control-label">Date début</label>
+                        <input asp-for="ScheduledAt" class="form-control" type="datetime-local" />
+                        <span asp-validation-for="ScheduledAt" class="text-danger"></span>
+                    </div>
+                </div>
+
+                <!-- Is Under Warranty Checkbox -->
+                <div class="col-md-6">
+                    <div class="form-group form-check">
+                        <label class="form-check-label">
+                            <input class="form-check-input" asp-for="IsUnderWarranty" />
+                            Sous garantie
+                        </label>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Row for Total Cost and Complaint -->
+            <div class="row">
+                <!-- Total Cost Field -->
+                <div class="col-md-6">
+                    <div class="form-group">
+                        <label asp-for="TotalCost" class="control-label">Prix (TND)</label>
+                        <input asp-for="TotalCost" class="form-control" type="number" step="0.01" placeholder="Enter total cost" />
+                        <span asp-validation-for="TotalCost" class="text-danger"></span>
+                    </div>
+                </div>
+
+                <!-- Complaint Dropdown -->
+                <div class="col-md-6">
+                    <div class="form-group">
+                        <label asp-for="ComplaintId" class="control-label">Reclamation</label>
+                        <select asp-for="ComplaintId" class="form-control" asp-items="ViewBag.ComplaintId">
+                            <option value="">Select Complaint</option>
+                        </select>
+                        <span asp-validation-for="ComplaintId" class="text-danger"></span>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Row for Technicien Dropdown -->
+            <div class="row">
+                <div class="col-md-6">
+                    <div class="form-group">
+                        <label asp-for="TechnicienId" class="control-label">Technicien</label>
+                        <select asp-for="TechnicienId" class="form-control" asp-items="ViewBag.TechnicienId">
+                            <option value="">Select Technicien</option>
+                        </select>
+                        <span asp-validation-for="TechnicienId" class="text-danger"></span>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Submit and Cancel Buttons -->
+            <div class="form-group text-center">
+                <input type="submit" value="Save" class="btn btn-success btn-lg" />
+                <a asp-action="Index" class="btn btn-secondary btn-lg ml-3">Retourner à la liste</a>
+            </div>
+        </form>
+    </div>
+</div>
+
+<!-- Validation Scripts -->
+@section Scripts {
+    @await Html.PartialAsync("_ValidationScriptsPartial")
+}

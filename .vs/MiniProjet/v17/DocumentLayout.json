@@ -1,0 +1,565 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\Wassim\\Desktop\\Nouveau dossier\\MiniProjet\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{0E79A0D6-4A62-483E-83EB-20A20D60D996}|MiniProjet\\MiniProjet.csproj|c:\\users\\wassim\\desktop\\nouveau dossier\\miniprojet\\miniprojet\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0E79A0D6-4A62-483E-83EB-20A20D60D996}|MiniProjet\\MiniProjet.csproj|solutionrelative:miniprojet\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0E79A0D6-4A62-483E-83EB-20A20D60D996}|MiniProjet\\MiniProjet.csproj|c:\\users\\wassim\\desktop\\nouveau dossier\\miniprojet\\miniprojet\\controllers\\interventioncontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0E79A0D6-4A62-483E-83EB-20A20D60D996}|MiniProjet\\MiniProjet.csproj|solutionrelative:miniprojet\\controllers\\interventioncontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0E79A0D6-4A62-483E-83EB-20A20D60D996}|MiniProjet\\MiniProjet.csproj|c:\\users\\wassim\\desktop\\nouveau dossier\\miniprojet\\miniprojet\\views\\intervention\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{0E79A0D6-4A62-483E-83EB-20A20D60D996}|MiniProjet\\MiniProjet.csproj|solutionrelative:miniprojet\\views\\intervention\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|ViewDataWindow_MSSQL__/_localdb__MSSQLLocalDB/ArticleAPresVente2/True/SqlTable/dbo.Interventions.sql||{0058A1F7-65F3-4DB9-B3D0-CA7E64DD73CD}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0E79A0D6-4A62-483E-83EB-20A20D60D996}|MiniProjet\\MiniProjet.csproj|c:\\users\\wassim\\desktop\\nouveau dossier\\miniprojet\\miniprojet\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{0E79A0D6-4A62-483E-83EB-20A20D60D996}|MiniProjet\\MiniProjet.csproj|solutionrelative:miniprojet\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0E79A0D6-4A62-483E-83EB-20A20D60D996}|MiniProjet\\MiniProjet.csproj|c:\\users\\wassim\\desktop\\nouveau dossier\\miniprojet\\miniprojet\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{0E79A0D6-4A62-483E-83EB-20A20D60D996}|MiniProjet\\MiniProjet.csproj|solutionrelative:miniprojet\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0E79A0D6-4A62-483E-83EB-20A20D60D996}|MiniProjet\\MiniProjet.csproj|c:\\users\\wassim\\desktop\\nouveau dossier\\miniprojet\\miniprojet\\views\\article\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{0E79A0D6-4A62-483E-83EB-20A20D60D996}|MiniProjet\\MiniProjet.csproj|solutionrelative:miniprojet\\views\\article\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0E79A0D6-4A62-483E-83EB-20A20D60D996}|MiniProjet\\MiniProjet.csproj|c:\\users\\wassim\\desktop\\nouveau dossier\\miniprojet\\miniprojet\\views\\technicien\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{0E79A0D6-4A62-483E-83EB-20A20D60D996}|MiniProjet\\MiniProjet.csproj|solutionrelative:miniprojet\\views\\technicien\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0E79A0D6-4A62-483E-83EB-20A20D60D996}|MiniProjet\\MiniProjet.csproj|c:\\users\\wassim\\desktop\\nouveau dossier\\miniprojet\\miniprojet\\views\\technicien\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{0E79A0D6-4A62-483E-83EB-20A20D60D996}|MiniProjet\\MiniProjet.csproj|solutionrelative:miniprojet\\views\\technicien\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0E79A0D6-4A62-483E-83EB-20A20D60D996}|MiniProjet\\MiniProjet.csproj|c:\\users\\wassim\\desktop\\nouveau dossier\\miniprojet\\miniprojet\\views\\technicien\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{0E79A0D6-4A62-483E-83EB-20A20D60D996}|MiniProjet\\MiniProjet.csproj|solutionrelative:miniprojet\\views\\technicien\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0E79A0D6-4A62-483E-83EB-20A20D60D996}|MiniProjet\\MiniProjet.csproj|c:\\users\\wassim\\desktop\\nouveau dossier\\miniprojet\\miniprojet\\views\\technicien\\delete.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{0E79A0D6-4A62-483E-83EB-20A20D60D996}|MiniProjet\\MiniProjet.csproj|solutionrelative:miniprojet\\views\\technicien\\delete.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0E79A0D6-4A62-483E-83EB-20A20D60D996}|MiniProjet\\MiniProjet.csproj|c:\\users\\wassim\\desktop\\nouveau dossier\\miniprojet\\miniprojet\\views\\technicien\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{0E79A0D6-4A62-483E-83EB-20A20D60D996}|MiniProjet\\MiniProjet.csproj|solutionrelative:miniprojet\\views\\technicien\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0E79A0D6-4A62-483E-83EB-20A20D60D996}|MiniProjet\\MiniProjet.csproj|c:\\users\\wassim\\desktop\\nouveau dossier\\miniprojet\\miniprojet\\views\\intervention\\myinterventions.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{0E79A0D6-4A62-483E-83EB-20A20D60D996}|MiniProjet\\MiniProjet.csproj|solutionrelative:miniprojet\\views\\intervention\\myinterventions.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0E79A0D6-4A62-483E-83EB-20A20D60D996}|MiniProjet\\MiniProjet.csproj|c:\\users\\wassim\\desktop\\nouveau dossier\\miniprojet\\miniprojet\\views\\intervention\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{0E79A0D6-4A62-483E-83EB-20A20D60D996}|MiniProjet\\MiniProjet.csproj|solutionrelative:miniprojet\\views\\intervention\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0E79A0D6-4A62-483E-83EB-20A20D60D996}|MiniProjet\\MiniProjet.csproj|c:\\users\\wassim\\desktop\\nouveau dossier\\miniprojet\\miniprojet\\views\\intervention\\delete.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{0E79A0D6-4A62-483E-83EB-20A20D60D996}|MiniProjet\\MiniProjet.csproj|solutionrelative:miniprojet\\views\\intervention\\delete.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0E79A0D6-4A62-483E-83EB-20A20D60D996}|MiniProjet\\MiniProjet.csproj|c:\\users\\wassim\\desktop\\nouveau dossier\\miniprojet\\miniprojet\\views\\intervention\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{0E79A0D6-4A62-483E-83EB-20A20D60D996}|MiniProjet\\MiniProjet.csproj|solutionrelative:miniprojet\\views\\intervention\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0E79A0D6-4A62-483E-83EB-20A20D60D996}|MiniProjet\\MiniProjet.csproj|c:\\users\\wassim\\desktop\\nouveau dossier\\miniprojet\\miniprojet\\views\\home\\privacy.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{0E79A0D6-4A62-483E-83EB-20A20D60D996}|MiniProjet\\MiniProjet.csproj|solutionrelative:miniprojet\\views\\home\\privacy.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0E79A0D6-4A62-483E-83EB-20A20D60D996}|MiniProjet\\MiniProjet.csproj|c:\\users\\wassim\\desktop\\nouveau dossier\\miniprojet\\miniprojet\\views\\complaint\\mycomplaints.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{0E79A0D6-4A62-483E-83EB-20A20D60D996}|MiniProjet\\MiniProjet.csproj|solutionrelative:miniprojet\\views\\complaint\\mycomplaints.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0E79A0D6-4A62-483E-83EB-20A20D60D996}|MiniProjet\\MiniProjet.csproj|c:\\users\\wassim\\desktop\\nouveau dossier\\miniprojet\\miniprojet\\views\\complaint\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{0E79A0D6-4A62-483E-83EB-20A20D60D996}|MiniProjet\\MiniProjet.csproj|solutionrelative:miniprojet\\views\\complaint\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0E79A0D6-4A62-483E-83EB-20A20D60D996}|MiniProjet\\MiniProjet.csproj|c:\\users\\wassim\\desktop\\nouveau dossier\\miniprojet\\miniprojet\\views\\complaint\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{0E79A0D6-4A62-483E-83EB-20A20D60D996}|MiniProjet\\MiniProjet.csproj|solutionrelative:miniprojet\\views\\complaint\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0E79A0D6-4A62-483E-83EB-20A20D60D996}|MiniProjet\\MiniProjet.csproj|c:\\users\\wassim\\desktop\\nouveau dossier\\miniprojet\\miniprojet\\views\\complaint\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{0E79A0D6-4A62-483E-83EB-20A20D60D996}|MiniProjet\\MiniProjet.csproj|solutionrelative:miniprojet\\views\\complaint\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0E79A0D6-4A62-483E-83EB-20A20D60D996}|MiniProjet\\MiniProjet.csproj|c:\\users\\wassim\\desktop\\nouveau dossier\\miniprojet\\miniprojet\\views\\complaint\\delete.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{0E79A0D6-4A62-483E-83EB-20A20D60D996}|MiniProjet\\MiniProjet.csproj|solutionrelative:miniprojet\\views\\complaint\\delete.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0E79A0D6-4A62-483E-83EB-20A20D60D996}|MiniProjet\\MiniProjet.csproj|c:\\users\\wassim\\desktop\\nouveau dossier\\miniprojet\\miniprojet\\views\\complaint\\createintervention.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{0E79A0D6-4A62-483E-83EB-20A20D60D996}|MiniProjet\\MiniProjet.csproj|solutionrelative:miniprojet\\views\\complaint\\createintervention.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0E79A0D6-4A62-483E-83EB-20A20D60D996}|MiniProjet\\MiniProjet.csproj|c:\\users\\wassim\\desktop\\nouveau dossier\\miniprojet\\miniprojet\\views\\complaint\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{0E79A0D6-4A62-483E-83EB-20A20D60D996}|MiniProjet\\MiniProjet.csproj|solutionrelative:miniprojet\\views\\complaint\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0E79A0D6-4A62-483E-83EB-20A20D60D996}|MiniProjet\\MiniProjet.csproj|c:\\users\\wassim\\desktop\\nouveau dossier\\miniprojet\\miniprojet\\views\\article\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{0E79A0D6-4A62-483E-83EB-20A20D60D996}|MiniProjet\\MiniProjet.csproj|solutionrelative:miniprojet\\views\\article\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0E79A0D6-4A62-483E-83EB-20A20D60D996}|MiniProjet\\MiniProjet.csproj|c:\\users\\wassim\\desktop\\nouveau dossier\\miniprojet\\miniprojet\\views\\article\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{0E79A0D6-4A62-483E-83EB-20A20D60D996}|MiniProjet\\MiniProjet.csproj|solutionrelative:miniprojet\\views\\article\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0E79A0D6-4A62-483E-83EB-20A20D60D996}|MiniProjet\\MiniProjet.csproj|c:\\users\\wassim\\desktop\\nouveau dossier\\miniprojet\\miniprojet\\views\\article\\delete.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{0E79A0D6-4A62-483E-83EB-20A20D60D996}|MiniProjet\\MiniProjet.csproj|solutionrelative:miniprojet\\views\\article\\delete.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0E79A0D6-4A62-483E-83EB-20A20D60D996}|MiniProjet\\MiniProjet.csproj|c:\\users\\wassim\\desktop\\nouveau dossier\\miniprojet\\miniprojet\\views\\article\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{0E79A0D6-4A62-483E-83EB-20A20D60D996}|MiniProjet\\MiniProjet.csproj|solutionrelative:miniprojet\\views\\article\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0E79A0D6-4A62-483E-83EB-20A20D60D996}|MiniProjet\\MiniProjet.csproj|c:\\users\\wassim\\desktop\\nouveau dossier\\miniprojet\\miniprojet\\views\\admin\\listroles.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{0E79A0D6-4A62-483E-83EB-20A20D60D996}|MiniProjet\\MiniProjet.csproj|solutionrelative:miniprojet\\views\\admin\\listroles.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0E79A0D6-4A62-483E-83EB-20A20D60D996}|MiniProjet\\MiniProjet.csproj|c:\\users\\wassim\\desktop\\nouveau dossier\\miniprojet\\miniprojet\\views\\admin\\editusersinrole.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{0E79A0D6-4A62-483E-83EB-20A20D60D996}|MiniProjet\\MiniProjet.csproj|solutionrelative:miniprojet\\views\\admin\\editusersinrole.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0E79A0D6-4A62-483E-83EB-20A20D60D996}|MiniProjet\\MiniProjet.csproj|c:\\users\\wassim\\desktop\\nouveau dossier\\miniprojet\\miniprojet\\views\\admin\\editrole.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{0E79A0D6-4A62-483E-83EB-20A20D60D996}|MiniProjet\\MiniProjet.csproj|solutionrelative:miniprojet\\views\\admin\\editrole.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0E79A0D6-4A62-483E-83EB-20A20D60D996}|MiniProjet\\MiniProjet.csproj|c:\\users\\wassim\\desktop\\nouveau dossier\\miniprojet\\miniprojet\\views\\admin\\createrole.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{0E79A0D6-4A62-483E-83EB-20A20D60D996}|MiniProjet\\MiniProjet.csproj|solutionrelative:miniprojet\\views\\admin\\createrole.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0E79A0D6-4A62-483E-83EB-20A20D60D996}|MiniProjet\\MiniProjet.csproj|c:\\users\\wassim\\desktop\\nouveau dossier\\miniprojet\\miniprojet\\views\\account\\register.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{0E79A0D6-4A62-483E-83EB-20A20D60D996}|MiniProjet\\MiniProjet.csproj|solutionrelative:miniprojet\\views\\account\\register.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0E79A0D6-4A62-483E-83EB-20A20D60D996}|MiniProjet\\MiniProjet.csproj|c:\\users\\wassim\\desktop\\nouveau dossier\\miniprojet\\miniprojet\\views\\account\\login.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{0E79A0D6-4A62-483E-83EB-20A20D60D996}|MiniProjet\\MiniProjet.csproj|solutionrelative:miniprojet\\views\\account\\login.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 1,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{fbcae063-e2c0-4ab1-a516-996ea3dafb72}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "HomeController.cs",
+              "DocumentMoniker": "C:\\Users\\Wassim\\Desktop\\Nouveau dossier\\MiniProjet\\MiniProjet\\Controllers\\HomeController.cs",
+              "RelativeDocumentMoniker": "MiniProjet\\Controllers\\HomeController.cs",
+              "ToolTip": "C:\\Users\\Wassim\\Desktop\\Nouveau dossier\\MiniProjet\\MiniProjet\\Controllers\\HomeController.cs",
+              "RelativeToolTip": "MiniProjet\\Controllers\\HomeController.cs",
+              "ViewState": "AgIAAAgAAAAAAAAAAAAQwA0AAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-04T08:39:38.561Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "InterventionController.cs",
+              "DocumentMoniker": "C:\\Users\\Wassim\\Desktop\\Nouveau dossier\\MiniProjet\\MiniProjet\\Controllers\\InterventionController.cs",
+              "RelativeDocumentMoniker": "MiniProjet\\Controllers\\InterventionController.cs",
+              "ToolTip": "C:\\Users\\Wassim\\Desktop\\Nouveau dossier\\MiniProjet\\MiniProjet\\Controllers\\InterventionController.cs",
+              "RelativeToolTip": "MiniProjet\\Controllers\\InterventionController.cs",
+              "ViewState": "AgIAACQAAAAAAAAAAAAowAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-04T08:36:37.244Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "dbo.Interventions.sql",
+              "DocumentMoniker": "ViewDataWindow_MSSQL__/_localdb__MSSQLLocalDB/ArticleAPresVente2/True/SqlTable/dbo.Interventions.sql",
+              "ToolTip": "ViewDataWindow_MSSQL__/_localdb__MSSQLLocalDB/ArticleAPresVente2/True/SqlTable/dbo.Interventions.sql",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000826|",
+              "WhenOpened": "2024-12-04T08:35:22.776Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\Wassim\\Desktop\\Nouveau dossier\\MiniProjet\\MiniProjet\\Views\\Technicien\\Index.cshtml",
+              "RelativeDocumentMoniker": "MiniProjet\\Views\\Technicien\\Index.cshtml",
+              "ToolTip": "C:\\Users\\Wassim\\Desktop\\Nouveau dossier\\MiniProjet\\MiniProjet\\Views\\Technicien\\Index.cshtml",
+              "RelativeToolTip": "MiniProjet\\Views\\Technicien\\Index.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACgAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-12-04T03:01:15.117Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "Edit.cshtml",
+              "DocumentMoniker": "C:\\Users\\Wassim\\Desktop\\Nouveau dossier\\MiniProjet\\MiniProjet\\Views\\Technicien\\Edit.cshtml",
+              "RelativeDocumentMoniker": "MiniProjet\\Views\\Technicien\\Edit.cshtml",
+              "ToolTip": "C:\\Users\\Wassim\\Desktop\\Nouveau dossier\\MiniProjet\\MiniProjet\\Views\\Technicien\\Edit.cshtml",
+              "RelativeToolTip": "MiniProjet\\Views\\Technicien\\Edit.cshtml",
+              "ViewState": "AgIAABEAAAAAAAAAAAAgwCgAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-12-04T03:00:43.776Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "Details.cshtml",
+              "DocumentMoniker": "C:\\Users\\Wassim\\Desktop\\Nouveau dossier\\MiniProjet\\MiniProjet\\Views\\Technicien\\Details.cshtml",
+              "RelativeDocumentMoniker": "MiniProjet\\Views\\Technicien\\Details.cshtml",
+              "ToolTip": "C:\\Users\\Wassim\\Desktop\\Nouveau dossier\\MiniProjet\\MiniProjet\\Views\\Technicien\\Details.cshtml",
+              "RelativeToolTip": "MiniProjet\\Views\\Technicien\\Details.cshtml",
+              "ViewState": "AgIAAAUAAAAAAAAAAAAgwBwAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-12-04T03:00:20.825Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "Delete.cshtml",
+              "DocumentMoniker": "C:\\Users\\Wassim\\Desktop\\Nouveau dossier\\MiniProjet\\MiniProjet\\Views\\Technicien\\Delete.cshtml",
+              "RelativeDocumentMoniker": "MiniProjet\\Views\\Technicien\\Delete.cshtml",
+              "ToolTip": "C:\\Users\\Wassim\\Desktop\\Nouveau dossier\\MiniProjet\\MiniProjet\\Views\\Technicien\\Delete.cshtml",
+              "RelativeToolTip": "MiniProjet\\Views\\Technicien\\Delete.cshtml",
+              "ViewState": "AgIAAAkAAAAAAAAAAAAgwCAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-12-04T02:59:59.029Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "Create.cshtml",
+              "DocumentMoniker": "C:\\Users\\Wassim\\Desktop\\Nouveau dossier\\MiniProjet\\MiniProjet\\Views\\Technicien\\Create.cshtml",
+              "RelativeDocumentMoniker": "MiniProjet\\Views\\Technicien\\Create.cshtml",
+              "ToolTip": "C:\\Users\\Wassim\\Desktop\\Nouveau dossier\\MiniProjet\\MiniProjet\\Views\\Technicien\\Create.cshtml",
+              "RelativeToolTip": "MiniProjet\\Views\\Technicien\\Create.cshtml",
+              "ViewState": "AgIAAA0AAAAAAAAAAAAgwCQAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-12-04T02:59:33.318Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\Wassim\\Desktop\\Nouveau dossier\\MiniProjet\\MiniProjet\\Views\\Home\\Index.cshtml",
+              "RelativeDocumentMoniker": "MiniProjet\\Views\\Home\\Index.cshtml",
+              "ToolTip": "C:\\Users\\Wassim\\Desktop\\Nouveau dossier\\MiniProjet\\MiniProjet\\Views\\Home\\Index.cshtml",
+              "RelativeToolTip": "MiniProjet\\Views\\Home\\Index.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABcAAAAsAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-12-04T02:14:14.098Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\Wassim\\Desktop\\Nouveau dossier\\MiniProjet\\MiniProjet\\Views\\Intervention\\Index.cshtml",
+              "RelativeDocumentMoniker": "MiniProjet\\Views\\Intervention\\Index.cshtml",
+              "ToolTip": "C:\\Users\\Wassim\\Desktop\\Nouveau dossier\\MiniProjet\\MiniProjet\\Views\\Intervention\\Index.cshtml",
+              "RelativeToolTip": "MiniProjet\\Views\\Intervention\\Index.cshtml",
+              "ViewState": "AgIAAAsAAAAAAAAAAAAgwDQAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-12-04T02:57:50.875Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "_Layout.cshtml",
+              "DocumentMoniker": "C:\\Users\\Wassim\\Desktop\\Nouveau dossier\\MiniProjet\\MiniProjet\\Views\\Shared\\_Layout.cshtml",
+              "RelativeDocumentMoniker": "MiniProjet\\Views\\Shared\\_Layout.cshtml",
+              "ToolTip": "C:\\Users\\Wassim\\Desktop\\Nouveau dossier\\MiniProjet\\MiniProjet\\Views\\Shared\\_Layout.cshtml",
+              "RelativeToolTip": "MiniProjet\\Views\\Shared\\_Layout.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAABEAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-12-04T02:13:08.446Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\Wassim\\Desktop\\Nouveau dossier\\MiniProjet\\MiniProjet\\Views\\Article\\Index.cshtml",
+              "RelativeDocumentMoniker": "MiniProjet\\Views\\Article\\Index.cshtml",
+              "ToolTip": "C:\\Users\\Wassim\\Desktop\\Nouveau dossier\\MiniProjet\\MiniProjet\\Views\\Article\\Index.cshtml",
+              "RelativeToolTip": "MiniProjet\\Views\\Article\\Index.cshtml",
+              "ViewState": "AgIAABsAAAAAAAAAAAAgwDIAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-12-04T02:50:02.988Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "MyInterventions.cshtml",
+              "DocumentMoniker": "C:\\Users\\Wassim\\Desktop\\Nouveau dossier\\MiniProjet\\MiniProjet\\Views\\Intervention\\MyInterventions.cshtml",
+              "RelativeDocumentMoniker": "MiniProjet\\Views\\Intervention\\MyInterventions.cshtml",
+              "ToolTip": "C:\\Users\\Wassim\\Desktop\\Nouveau dossier\\MiniProjet\\MiniProjet\\Views\\Intervention\\MyInterventions.cshtml",
+              "RelativeToolTip": "MiniProjet\\Views\\Intervention\\MyInterventions.cshtml",
+              "ViewState": "AgIAAB0AAAAAAAAAAAAgwDQAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-12-04T02:58:15.288Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "Edit.cshtml",
+              "DocumentMoniker": "C:\\Users\\Wassim\\Desktop\\Nouveau dossier\\MiniProjet\\MiniProjet\\Views\\Intervention\\Edit.cshtml",
+              "RelativeDocumentMoniker": "MiniProjet\\Views\\Intervention\\Edit.cshtml",
+              "ToolTip": "C:\\Users\\Wassim\\Desktop\\Nouveau dossier\\MiniProjet\\MiniProjet\\Views\\Intervention\\Edit.cshtml",
+              "RelativeToolTip": "MiniProjet\\Views\\Intervention\\Edit.cshtml",
+              "ViewState": "AgIAAEUAAAAAAAAAAAAgwFwAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-12-04T02:56:43.832Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "Delete.cshtml",
+              "DocumentMoniker": "C:\\Users\\Wassim\\Desktop\\Nouveau dossier\\MiniProjet\\MiniProjet\\Views\\Intervention\\Delete.cshtml",
+              "RelativeDocumentMoniker": "MiniProjet\\Views\\Intervention\\Delete.cshtml",
+              "ToolTip": "C:\\Users\\Wassim\\Desktop\\Nouveau dossier\\MiniProjet\\MiniProjet\\Views\\Intervention\\Delete.cshtml",
+              "RelativeToolTip": "MiniProjet\\Views\\Intervention\\Delete.cshtml",
+              "ViewState": "AgIAACEAAAAAAAAAAAAgwDgAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-12-04T02:56:12.517Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "Create.cshtml",
+              "DocumentMoniker": "C:\\Users\\Wassim\\Desktop\\Nouveau dossier\\MiniProjet\\MiniProjet\\Views\\Intervention\\Create.cshtml",
+              "RelativeDocumentMoniker": "MiniProjet\\Views\\Intervention\\Create.cshtml",
+              "ToolTip": "C:\\Users\\Wassim\\Desktop\\Nouveau dossier\\MiniProjet\\MiniProjet\\Views\\Intervention\\Create.cshtml",
+              "RelativeToolTip": "MiniProjet\\Views\\Intervention\\Create.cshtml",
+              "ViewState": "AgIAACMAAAAAAAAAAAAgwDoAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-12-04T02:55:39.873Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "Privacy.cshtml",
+              "DocumentMoniker": "C:\\Users\\Wassim\\Desktop\\Nouveau dossier\\MiniProjet\\MiniProjet\\Views\\Home\\Privacy.cshtml",
+              "RelativeDocumentMoniker": "MiniProjet\\Views\\Home\\Privacy.cshtml",
+              "ToolTip": "C:\\Users\\Wassim\\Desktop\\Nouveau dossier\\MiniProjet\\MiniProjet\\Views\\Home\\Privacy.cshtml",
+              "RelativeToolTip": "MiniProjet\\Views\\Home\\Privacy.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-12-04T02:55:31.453Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "MyComplaints.cshtml",
+              "DocumentMoniker": "C:\\Users\\Wassim\\Desktop\\Nouveau dossier\\MiniProjet\\MiniProjet\\Views\\Complaint\\MyComplaints.cshtml",
+              "RelativeDocumentMoniker": "MiniProjet\\Views\\Complaint\\MyComplaints.cshtml",
+              "ToolTip": "C:\\Users\\Wassim\\Desktop\\Nouveau dossier\\MiniProjet\\MiniProjet\\Views\\Complaint\\MyComplaints.cshtml",
+              "RelativeToolTip": "MiniProjet\\Views\\Complaint\\MyComplaints.cshtml",
+              "ViewState": "AgIAABoAAAAAAAAAAAAgwDEAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-12-04T02:53:59.335Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\Wassim\\Desktop\\Nouveau dossier\\MiniProjet\\MiniProjet\\Views\\Complaint\\Index.cshtml",
+              "RelativeDocumentMoniker": "MiniProjet\\Views\\Complaint\\Index.cshtml",
+              "ToolTip": "C:\\Users\\Wassim\\Desktop\\Nouveau dossier\\MiniProjet\\MiniProjet\\Views\\Complaint\\Index.cshtml",
+              "RelativeToolTip": "MiniProjet\\Views\\Complaint\\Index.cshtml",
+              "ViewState": "AgIAABEAAAAAAAAAAAAgwCgAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-12-04T02:53:32.684Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "Edit.cshtml",
+              "DocumentMoniker": "C:\\Users\\Wassim\\Desktop\\Nouveau dossier\\MiniProjet\\MiniProjet\\Views\\Complaint\\Edit.cshtml",
+              "RelativeDocumentMoniker": "MiniProjet\\Views\\Complaint\\Edit.cshtml",
+              "ToolTip": "C:\\Users\\Wassim\\Desktop\\Nouveau dossier\\MiniProjet\\MiniProjet\\Views\\Complaint\\Edit.cshtml",
+              "RelativeToolTip": "MiniProjet\\Views\\Complaint\\Edit.cshtml",
+              "ViewState": "AgIAABkAAAAAAAAAAAAgwDAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-12-04T02:53:04.586Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
+              "Title": "Details.cshtml",
+              "DocumentMoniker": "C:\\Users\\Wassim\\Desktop\\Nouveau dossier\\MiniProjet\\MiniProjet\\Views\\Complaint\\Details.cshtml",
+              "RelativeDocumentMoniker": "MiniProjet\\Views\\Complaint\\Details.cshtml",
+              "ToolTip": "C:\\Users\\Wassim\\Desktop\\Nouveau dossier\\MiniProjet\\MiniProjet\\Views\\Complaint\\Details.cshtml",
+              "RelativeToolTip": "MiniProjet\\Views\\Complaint\\Details.cshtml",
+              "ViewState": "AgIAAA0AAAAAAAAAAAAgwCQAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-12-04T02:52:39.264Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 21,
+              "Title": "Delete.cshtml",
+              "DocumentMoniker": "C:\\Users\\Wassim\\Desktop\\Nouveau dossier\\MiniProjet\\MiniProjet\\Views\\Complaint\\Delete.cshtml",
+              "RelativeDocumentMoniker": "MiniProjet\\Views\\Complaint\\Delete.cshtml",
+              "ToolTip": "C:\\Users\\Wassim\\Desktop\\Nouveau dossier\\MiniProjet\\MiniProjet\\Views\\Complaint\\Delete.cshtml",
+              "RelativeToolTip": "MiniProjet\\Views\\Complaint\\Delete.cshtml",
+              "ViewState": "AgIAABYAAAAAAAAAAAAgwC0AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-12-04T02:52:04.848Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 22,
+              "Title": "CreateIntervention.cshtml",
+              "DocumentMoniker": "C:\\Users\\Wassim\\Desktop\\Nouveau dossier\\MiniProjet\\MiniProjet\\Views\\Complaint\\CreateIntervention.cshtml",
+              "RelativeDocumentMoniker": "MiniProjet\\Views\\Complaint\\CreateIntervention.cshtml",
+              "ToolTip": "C:\\Users\\Wassim\\Desktop\\Nouveau dossier\\MiniProjet\\MiniProjet\\Views\\Complaint\\CreateIntervention.cshtml",
+              "RelativeToolTip": "MiniProjet\\Views\\Complaint\\CreateIntervention.cshtml",
+              "ViewState": "AgIAAB4AAAAAAAAAAAAgwDUAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-12-04T02:51:29.209Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 23,
+              "Title": "Create.cshtml",
+              "DocumentMoniker": "C:\\Users\\Wassim\\Desktop\\Nouveau dossier\\MiniProjet\\MiniProjet\\Views\\Complaint\\Create.cshtml",
+              "RelativeDocumentMoniker": "MiniProjet\\Views\\Complaint\\Create.cshtml",
+              "ToolTip": "C:\\Users\\Wassim\\Desktop\\Nouveau dossier\\MiniProjet\\MiniProjet\\Views\\Complaint\\Create.cshtml",
+              "RelativeToolTip": "MiniProjet\\Views\\Complaint\\Create.cshtml",
+              "ViewState": "AgIAAB4AAAAAAAAAAAAgwDUAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-12-04T02:50:55.199Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 24,
+              "Title": "Edit.cshtml",
+              "DocumentMoniker": "C:\\Users\\Wassim\\Desktop\\Nouveau dossier\\MiniProjet\\MiniProjet\\Views\\Article\\Edit.cshtml",
+              "RelativeDocumentMoniker": "MiniProjet\\Views\\Article\\Edit.cshtml",
+              "ToolTip": "C:\\Users\\Wassim\\Desktop\\Nouveau dossier\\MiniProjet\\MiniProjet\\Views\\Article\\Edit.cshtml",
+              "RelativeToolTip": "MiniProjet\\Views\\Article\\Edit.cshtml",
+              "ViewState": "AgIAACEAAAAAAAAAAAAgwDgAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-12-04T02:49:27.744Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 25,
+              "Title": "Details.cshtml",
+              "DocumentMoniker": "C:\\Users\\Wassim\\Desktop\\Nouveau dossier\\MiniProjet\\MiniProjet\\Views\\Article\\Details.cshtml",
+              "RelativeDocumentMoniker": "MiniProjet\\Views\\Article\\Details.cshtml",
+              "ToolTip": "C:\\Users\\Wassim\\Desktop\\Nouveau dossier\\MiniProjet\\MiniProjet\\Views\\Article\\Details.cshtml",
+              "RelativeToolTip": "MiniProjet\\Views\\Article\\Details.cshtml",
+              "ViewState": "AgIAABcAAAAAAAAAAAAgwC4AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-12-04T02:48:34.878Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 26,
+              "Title": "Delete.cshtml",
+              "DocumentMoniker": "C:\\Users\\Wassim\\Desktop\\Nouveau dossier\\MiniProjet\\MiniProjet\\Views\\Article\\Delete.cshtml",
+              "RelativeDocumentMoniker": "MiniProjet\\Views\\Article\\Delete.cshtml",
+              "ToolTip": "C:\\Users\\Wassim\\Desktop\\Nouveau dossier\\MiniProjet\\MiniProjet\\Views\\Article\\Delete.cshtml",
+              "RelativeToolTip": "MiniProjet\\Views\\Article\\Delete.cshtml",
+              "ViewState": "AgIAABMAAAAAAAAAAAAgwCoAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-12-04T02:47:55.592Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 27,
+              "Title": "Create.cshtml",
+              "DocumentMoniker": "C:\\Users\\Wassim\\Desktop\\Nouveau dossier\\MiniProjet\\MiniProjet\\Views\\Article\\Create.cshtml",
+              "RelativeDocumentMoniker": "MiniProjet\\Views\\Article\\Create.cshtml",
+              "ToolTip": "C:\\Users\\Wassim\\Desktop\\Nouveau dossier\\MiniProjet\\MiniProjet\\Views\\Article\\Create.cshtml",
+              "RelativeToolTip": "MiniProjet\\Views\\Article\\Create.cshtml",
+              "ViewState": "AgIAABcAAAAAAAAAAAAgwC4AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-12-04T02:47:21.523Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 28,
+              "Title": "ListRoles.cshtml",
+              "DocumentMoniker": "C:\\Users\\Wassim\\Desktop\\Nouveau dossier\\MiniProjet\\MiniProjet\\Views\\Admin\\ListRoles.cshtml",
+              "RelativeDocumentMoniker": "MiniProjet\\Views\\Admin\\ListRoles.cshtml",
+              "ToolTip": "C:\\Users\\Wassim\\Desktop\\Nouveau dossier\\MiniProjet\\MiniProjet\\Views\\Admin\\ListRoles.cshtml",
+              "RelativeToolTip": "MiniProjet\\Views\\Admin\\ListRoles.cshtml",
+              "ViewState": "AgIAACAAAAAAAAAAAAAgwDcAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-12-04T02:46:43.439Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 29,
+              "Title": "EditUsersInRole.cshtml",
+              "DocumentMoniker": "C:\\Users\\Wassim\\Desktop\\Nouveau dossier\\MiniProjet\\MiniProjet\\Views\\Admin\\EditUsersInRole.cshtml",
+              "RelativeDocumentMoniker": "MiniProjet\\Views\\Admin\\EditUsersInRole.cshtml",
+              "ToolTip": "C:\\Users\\Wassim\\Desktop\\Nouveau dossier\\MiniProjet\\MiniProjet\\Views\\Admin\\EditUsersInRole.cshtml",
+              "RelativeToolTip": "MiniProjet\\Views\\Admin\\EditUsersInRole.cshtml",
+              "ViewState": "AgIAAA8AAAAAAAAAAAAgwCYAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-12-04T02:46:13.414Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 30,
+              "Title": "EditRole.cshtml",
+              "DocumentMoniker": "C:\\Users\\Wassim\\Desktop\\Nouveau dossier\\MiniProjet\\MiniProjet\\Views\\Admin\\EditRole.cshtml",
+              "RelativeDocumentMoniker": "MiniProjet\\Views\\Admin\\EditRole.cshtml",
+              "ToolTip": "C:\\Users\\Wassim\\Desktop\\Nouveau dossier\\MiniProjet\\MiniProjet\\Views\\Admin\\EditRole.cshtml",
+              "RelativeToolTip": "MiniProjet\\Views\\Admin\\EditRole.cshtml",
+              "ViewState": "AgIAACgAAAAAAAAAAAAgwD8AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-12-04T02:45:30.629Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 31,
+              "Title": "CreateRole.cshtml",
+              "DocumentMoniker": "C:\\Users\\Wassim\\Desktop\\Nouveau dossier\\MiniProjet\\MiniProjet\\Views\\Admin\\CreateRole.cshtml",
+              "RelativeDocumentMoniker": "MiniProjet\\Views\\Admin\\CreateRole.cshtml",
+              "ToolTip": "C:\\Users\\Wassim\\Desktop\\Nouveau dossier\\MiniProjet\\MiniProjet\\Views\\Admin\\CreateRole.cshtml",
+              "RelativeToolTip": "MiniProjet\\Views\\Admin\\CreateRole.cshtml",
+              "ViewState": "AgIAAAoAAAAAAAAAAAAgwCEAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-12-04T02:45:05.236Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 32,
+              "Title": "Register.cshtml",
+              "DocumentMoniker": "C:\\Users\\Wassim\\Desktop\\Nouveau dossier\\MiniProjet\\MiniProjet\\Views\\Account\\Register.cshtml",
+              "RelativeDocumentMoniker": "MiniProjet\\Views\\Account\\Register.cshtml",
+              "ToolTip": "C:\\Users\\Wassim\\Desktop\\Nouveau dossier\\MiniProjet\\MiniProjet\\Views\\Account\\Register.cshtml",
+              "RelativeToolTip": "MiniProjet\\Views\\Account\\Register.cshtml",
+              "ViewState": "AgIAABgAAAAAAAAAAAAiwC8AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-12-04T02:19:43.372Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 33,
+              "Title": "Login.cshtml",
+              "DocumentMoniker": "C:\\Users\\Wassim\\Desktop\\Nouveau dossier\\MiniProjet\\MiniProjet\\Views\\Account\\Login.cshtml",
+              "RelativeDocumentMoniker": "MiniProjet\\Views\\Account\\Login.cshtml",
+              "ToolTip": "C:\\Users\\Wassim\\Desktop\\Nouveau dossier\\MiniProjet\\MiniProjet\\Views\\Account\\Login.cshtml",
+              "RelativeToolTip": "MiniProjet\\Views\\Account\\Login.cshtml",
+              "ViewState": "AgIAACAAAAAAAAAAAAAgwDcAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-12-04T02:19:19.859Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

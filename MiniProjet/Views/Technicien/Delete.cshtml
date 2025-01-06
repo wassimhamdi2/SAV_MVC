@@ -1,0 +1,32 @@
+﻿@model MiniProjet.Models.Technicien
+
+@{
+    ViewData["Title"] = "Supprimer";
+}
+
+<div class="card border-danger mb-3">
+    <div class="card-header bg-danger text-white">
+        <h1>Supprimer le Technicien</h1>
+    </div>
+    <div class="card-body">
+        <h3 class="text-danger">Êtes-vous sûr de vouloir supprimer ce technicien ?</h3>
+
+        <dl class="row mt-4">
+            <dt class="col-sm-4">Nom</dt>
+            <dd class="col-sm-8">@Html.DisplayFor(model => model.Name)</dd>
+
+            <dt class="col-sm-4">Téléphone</dt>
+            <dd class="col-sm-8">@Html.DisplayFor(model => model.Phone)</dd>
+        </dl>
+    </div>
+    <div class="card-footer d-flex justify-content-between">
+        <!-- Delete Confirmation Form -->
+        <form asp-action="Delete">
+            <input type="hidden" asp-for="Id" />
+            <button type="submit" class="btn btn-danger">Confirmer</button>
+        </form>
+
+        <!-- Back to List -->
+        <a asp-action="Index" class="btn btn-secondary">Retour à la liste</a>
+    </div>
+</div>

@@ -1,0 +1,40 @@
+﻿@model IEnumerable<MiniProjet.Models.Complaint>
+
+@{
+    ViewData["Title"] = "Complaints List";
+}
+
+<h1 class="text-center mb-4">Complaints List</h1>
+
+<div class="row">
+    @foreach (var item in Model)
+    {
+            <div class="col-md-4 mb-4">
+                <!-- Card for each complaint -->
+                <div class="card shadow-sm h-100">
+
+                    <!-- Card Header with background color -->
+                    <div class="card-header bg-primary text-white">
+                        <strong>@item.Description</strong>
+                    </div>
+
+                    <!-- Card Body with complaint details -->
+                    <div class="card-body">
+                        <p><strong>Created At:</strong> @item.CreatedAt</p>
+                        <p><strong>Customer:</strong> @item.Customer?.Email</p>
+                        <p><strong>Article:</strong> @item.article?.Désignation</p>
+                    </div>
+
+                    <!-- Card Footer with action buttons -->
+                    <div class="card-footer d-flex justify-content-between">
+                        <a asp-action="Details" asp-route-id="@item.Id" class="btn btn-primary btn-sm">
+                            <i class="fas fa-eye"></i> Details
+                        </a>
+                        <a asp-action="Delete" asp-route-id="@item.Id" class="btn btn-danger btn-sm">
+                            <i class="fas fa-trash"></i> Supprimer
+                        </a>
+                    </div>
+                </div>
+            </div>
+    }
+</div>

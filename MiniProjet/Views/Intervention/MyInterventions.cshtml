@@ -1,0 +1,52 @@
+﻿@model IEnumerable<MiniProjet.Models.Intervention>
+
+@{
+    ViewData["Title"] = "Intervention List";
+}
+
+<!-- Page Title -->
+<h1 class="display-4 text-center mb-4">Intervention List</h1>
+
+<!-- Add Intervention Button -->
+<div class="d-flex justify-content-between align-items-center mb-4">
+    <a asp-action="Create" class="btn btn-success">
+        <i class="fas fa-plus"></i> Ajouter Intervention 
+    </a>
+</div>
+
+<!-- Intervention Cards -->
+<div class="row">
+    @foreach (var item in Model)
+    {
+            <div class="col-lg-4 col-md-6 mb-4">
+                <div class="card shadow-lg border-0">
+                    <div class="card-header bg-primary text-white">
+                        <h5 class="card-title">Intervention #@item.Id</h5>
+                    </div>
+                    <div class="card-body">
+                        <!-- Scheduled Date -->
+                        <p>
+                            <strong>Programmé à:</strong> @item.ScheduledAt.ToString("yyyy-MM-dd HH:mm")
+                        </p>
+
+                        <!-- Warranty Status -->
+                        <p><strong>Sous garantie:</strong> @(item.IsUnderWarranty ? "Yes" : "No")</p>
+
+                        <!-- Total Cost -->
+                        <p><strong>Coût total:</strong> @item.TotalCost.ToString("C")</p>
+
+                        <!-- Complaint Description -->
+                        <p><strong>Reclamation:</strong> @item.Complaint?.Description </p>
+
+                        <!-- Technician Name -->
+                        <p><strong>Technicien:</strong> @item.Technicien?.Name</p>
+                    </div>
+                    <div class="card-footer text-center">
+                        <!-- Edit and Delete Buttons -->
+                        <a asp-action="Edit" asp-route-id="@item.Id" class="btn btn-warning btn-sm">Modifier</a>
+                        <a asp-action="Delete" asp-route-id="@item.Id" class="btn btn-danger btn-sm">Supprimer</a>
+                    </div>
+                </div>
+            </div>
+    }
+</div>

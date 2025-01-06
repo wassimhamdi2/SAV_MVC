@@ -1,0 +1,38 @@
+﻿@using MiniProjet.ViewModels
+@model List<UserRoleViewModel>
+@{
+    var roleId = ViewBag.roleId;
+}
+
+<div class="container d-flex align-items-center justify-content-center min-vh-100">
+    <div class="col-md-6">
+        <div class="card shadow-lg border-0 rounded-3">
+            <div class="card-header bg-gradient-info text-white text-center rounded-3 py-4">
+                <h3>Gérer les utilisateurs dans le rôle</h3>
+                <p class="lead mb-0">Sélectionnez les utilisateurs pour ce rôle</p>
+            </div>
+            <div class="card-body px-4 py-5">
+                <form method="post">
+                    @for (int i = 0; i < Model.Count; i++)
+                    {
+                            <div class="form-check mb-3">
+                                <input type="hidden" asp-for="@Model[i].UserId" />
+                                <input type="hidden" asp-for="@Model[i].UserName" />
+                                <input asp-for="@Model[i].IsSelected" class="form-check-input" />
+                                <label class="form-check-label" asp-for="@Model[i].IsSelected">
+                                @Model[i].UserName
+                                </label>
+                            </div>
+                    }
+
+                    <button type="submit" class="btn btn-success btn-lg w-100 py-2 mb-3">
+                        <i class="fas fa-save"></i> Mettre à jour
+                    </button>
+                    <a asp-action="EditRole" asp-route-id="@roleId" class="btn btn-secondary btn-lg w-100 py-2">
+                        <i class="fas fa-times-circle"></i> Annuler
+                    </a>
+                </form>
+            </div>
+        </div>
+    </div>
+</div>

@@ -1,0 +1,58 @@
+﻿@model MiniProjet.Models.Intervention
+
+@{
+    ViewData["Title"] = "Create";
+}
+
+<div class="container mt-5">
+    <div class="card shadow-sm">
+        <div class="card-body">
+            <h1 class="card-title">Ajouter Intervention</h1>
+            <hr />
+
+            <form asp-action="Create" method="post">
+                <!-- Scheduled At Field -->
+                <div class="mb-3">
+                    <label asp-for="ScheduledAt" class="form-label">Scheduled At</label>
+                    <input asp-for="ScheduledAt" class="form-control" />
+                    <span asp-validation-for="ScheduledAt" class="text-danger"></span>
+                </div>
+
+                <!-- Warranty Checkbox -->
+                <div class="mb-3 form-check">
+                    <input asp-for="IsUnderWarranty" class="form-check-input" />
+                    <label asp-for="IsUnderWarranty" class="form-check-label">Sous garantie</label>
+                </div>
+
+                <!-- Total Cost Field -->
+                <div class="mb-3">
+                    <label asp-for="TotalCost" class="form-label">Coût Total</label>
+                    <input asp-for="TotalCost" class="form-control" />
+                    <span asp-validation-for="TotalCost" class="text-danger"></span>
+                </div>
+
+                <!-- Complaint Dropdown -->
+                <div class="form-group mb-3">
+                    <label asp-for="ComplaintId" class="control-label">Reclamation</label>
+                    <select asp-for="ComplaintId" class="form-control" asp-items="ViewBag.ComplaintId">
+                        <option value="">Sélectionner une réclamation</option>
+                    </select>
+                    <span asp-validation-for="ComplaintId" class="text-danger"></span>
+                </div>
+
+                <!-- Technician Dropdown -->
+                <div class="form-group mb-3">
+                    <label asp-for="TechnicienId" class="control-label">Technicien</label>
+                    <select asp-for="TechnicienId" class="form-control" asp-items="ViewBag.TechnicienId">
+                        <option value="">Sélectionner un technicien</option>
+                    </select>
+                    <span asp-validation-for="TechnicienId" class="text-danger"></span>
+                </div>
+
+                <!-- Submit Button -->
+                <button type="submit" class="btn btn-primary">Ajouter</button>
+                <a asp-action="Index" class="btn btn-secondary">Annuler</a>
+            </form>
+        </div>
+    </div>
+</div>

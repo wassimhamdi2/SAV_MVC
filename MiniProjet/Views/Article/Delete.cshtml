@@ -1,0 +1,42 @@
+﻿@model MiniProjet.Models.Article 
+
+@{
+    ViewData["Title"] = "Article Details";
+    var photoPath = "~/images/" + (Model.Image ?? "noimage.jpg");
+}
+
+<div class="container d-flex flex-column align-items-center mt-5">
+    <!-- Article Details Card -->
+    <div class="card shadow-lg border-0 rounded-3 w-100" style="max-width: 600px;">
+        <div class="card-header bg-info text-white text-center py-4">
+            <h3>Article Détails</h3>
+        </div>
+        <div class="card-body px-4 py-5">
+            <dl class="row">
+                <!-- Désignation -->
+                <dt class="col-sm-3">Désignation</dt>
+                <dd class="col-sm-9">@Model.Désignation</dd>
+
+                <!-- Prix -->
+                <dt class="col-sm-3">Prix</dt>
+                <dd class="col-sm-9">@Model.Prix</dd>
+
+                <!-- Image -->
+                <dt class="col-sm-3">Image</dt>
+                <dd class="col-sm-9">
+                    <img src="@photoPath" asp-append-version="true" class="img-thumbnail" style="max-width: 200px;" />
+                </dd>
+            </dl>
+        </div>
+        <div class="card-footer d-flex justify-content-between">
+            <!-- Edit Button -->
+            <a asp-action="Edit" asp-route-id="@Model.Id" class="btn btn-warning btn-lg">
+                <i class="fas fa-edit"></i> Modifier
+            </a>
+            <!-- Back to List Button -->
+            <a asp-action="Index" class="btn btn-secondary btn-lg">
+                <i class="fas fa-arrow-left"></i> Retourner à la liste
+            </a>
+        </div>
+    </div>
+</div>

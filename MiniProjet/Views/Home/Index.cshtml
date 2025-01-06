@@ -1,0 +1,71 @@
+﻿@{
+    ViewData["Title"] = "Page d'Accueil";
+}
+
+<div class="container-fluid bg-primary text-white py-5">
+    <!-- Hero Section with Large Background Image -->
+    <div class="row align-items-center">
+        <div class="col-md-6 text-center text-md-left">
+            <h1 class="display-4 font-weight-bold mb-4">Bienvenue sur notre Portail Service Après-Vente</h1>
+            <p class="lead mb-4">Optimisez vos processus après-vente et améliorez l'expérience client avec notre plateforme.</p>
+            <a href="#services" class="btn btn-light btn-lg shadow-lg">
+                <i class="fas fa-cogs"></i> Découvrez Nos Services
+            </a>
+        </div>
+        <div class="col-md-6">
+            <img src="~/images/sav2.png" class="img-fluid rounded shadow-lg" alt="Service Après-Vente">
+        </div>
+    </div>
+</div>
+
+<div class="container py-5">
+    <!-- Section for Service Cards with Modern Gradient Background -->
+    <div class="row text-center mb-5">
+        <div class="col-lg-4 col-md-6 mb-4">
+            <div class="card border-light shadow-lg h-100">
+                <div class="card-body p-4">
+                    <h4 class="card-title mb-3">Gestion des Réclamations</h4>
+                    <p class="card-text">Améliorez la satisfaction client en suivant et en résolvant les réclamations rapidement et efficacement.</p>
+                    <a asp-controller="Complaint" asp-action="Index" class="btn btn-outline-primary btn-lg">
+                        <i class="fas fa-clipboard-list"></i> Commencer
+                    </a>
+                </div>
+            </div>
+        </div>
+        <div class="col-lg-4 col-md-6 mb-4">
+            <div class="card border-light shadow-lg h-100">
+                <div class="card-body p-4">
+                    <h4 class="card-title mb-3">Création d'Interventions</h4>
+                    <p class="card-text">Créez et planifiez des interventions facilement pour offrir un service de qualité à vos clients.</p>
+                    <a asp-controller="Intervention" asp-action="Create" class="btn btn-outline-warning btn-lg">
+                        <i class="fas fa-tools"></i> Créer une Intervention
+                    </a>
+                </div>
+            </div>
+        </div>
+        <div class="col-lg-4 col-md-6 mb-4">
+            <div class="card border-light shadow-lg h-100">
+                <div class="card-body p-4">
+                    <h4 class="card-title mb-3">Suivi des Progrès</h4>
+                    <p class="card-text">Suivez l'état des interventions en temps réel et assurez une meilleure gestion de votre service après-vente.</p>
+                    <a asp-controller="Intervention" asp-action="Index" class="btn btn-outline-success btn-lg">
+                        <i class="fas fa-chart-line"></i> Suivre les Progrès
+                    </a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- CTA Section with a Dark Gradient Background -->
+    <div class="bg-dark text-white py-5 rounded-lg shadow-lg">
+        <div class="row text-center">
+            <div class="col-md-12">
+                <h2 class="display-4 mb-4">Prêt à commencer ?</h2>
+                <p class="lead mb-4">Lancez vos réclamations, interventions et suivi dès maintenant en utilisant nos outils avancés et intuitifs.</p>
+                <a href="#services" class="btn btn-light btn-lg">
+                    <i class="fas fa-arrow-circle-right"></i> Démarrer
+                </a>
+            </div>
+        </div>
+    </div>
+</div>

@@ -1,0 +1,48 @@
+﻿@model MiniProjet.Models.Complaint
+
+@{
+    ViewData["Title"] = "Edit";
+}
+
+<div class="container mt-5">
+    <!-- Card for Editing Complaint -->
+    <div class="card shadow-sm">
+        <div class="card-header bg-info text-white">
+            <h1>Modifier Reclamation</h1>
+        </div>
+        <div class="card-body">
+            <form asp-action="Edit">
+                <!-- Validation Summary -->
+                <div asp-validation-summary="ModelOnly" class="text-danger mb-3"></div>
+
+                <!-- Hidden Input for ID -->
+                <input type="hidden" asp-for="Id" />
+
+                <!-- Description Field -->
+                <div class="form-group mb-3">
+                    <label asp-for="Description" class="form-label">Description</label>
+                    <input asp-for="Description" class="form-control" placeholder="Enter description" />
+                    <span asp-validation-for="Description" class="text-danger"></span>
+                </div>
+
+                <!-- Created At Field -->
+                <div class="form-group mb-3">
+                    <label asp-for="CreatedAt" class="form-label">Date Created</label>
+                    <input asp-for="CreatedAt" class="form-control" placeholder="Enter creation date" />
+                    <span asp-validation-for="CreatedAt" class="text-danger"></span>
+                </div>
+
+                <!-- Save Button -->
+                <button type="submit" class="btn btn-primary w-100">
+                    <i class="fas fa-save"></i> Enregistrer
+                </button>
+            </form>
+        </div>
+        <div class="card-footer text-center">
+            <!-- Button to go back to list of complaints -->
+            <a asp-action="Index" class="btn btn-secondary w-100">
+                Retourner a la list
+            </a>
+        </div>
+    </div>
+</div>

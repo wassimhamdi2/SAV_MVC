@@ -1,0 +1,40 @@
+﻿@model IEnumerable<MiniProjet.Models.Technicien>
+
+@{
+    ViewData["Title"] = "Technicien List";
+}
+
+<!-- Page Title -->
+<h1 class="text-center my-4">Liste des Techniciens</h1>
+
+<!-- Add Technicien Button -->
+<div class="text-end mb-3">
+    <a asp-action="Create" class="btn btn-primary">Ajouter un Technicien</a>
+</div>
+
+<!-- Technician Cards -->
+<div class="row">
+    @foreach (var technicien in Model)
+    {
+            <div class="col-md-4 mb-4">
+                <div class="card shadow-sm">
+                    <div class="card-body">
+                        <!-- Technician Name -->
+                        <h5 class="card-title">@Html.DisplayFor(modelItem => technicien.Name)</h5>
+
+                        <!-- Technician Phone -->
+                        <p class="card-text">
+                            <strong>Téléphone:</strong> @Html.DisplayFor(modelItem => technicien.Phone)
+                        </p>
+
+                        <!-- Action Buttons -->
+                        <div class="d-flex justify-content-between">
+                            <a asp-action="Edit" asp-route-id="@technicien.Id" class="btn btn-sm btn-warning">Modifier</a>
+                            <a asp-action="Details" asp-route-id="@technicien.Id" class="btn btn-sm btn-info">Détails</a>
+                            <a asp-action="Delete" asp-route-id="@technicien.Id" class="btn btn-sm btn-danger">Supprimer</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+    }
+</div>

@@ -1,0 +1,45 @@
+﻿@model MiniProjet.Models.Complaint
+
+@{
+    ViewData["Title"] = "Delete";
+}
+
+<div class="container mt-5">
+    <!-- Card container with border and danger color -->
+    <div class="card border-danger mb-3">
+        <div class="card-header bg-danger text-white">
+            <h1>Supprimer Reclamation</h1>
+        </div>
+        <div class="card-body">
+            <!-- Confirmation message -->
+            <h3 class="card-title text-danger">Etes-vous sûr de vouloir supprimer ceci ?</h3>
+            <hr />
+            <!-- Complaint Details -->
+            <div class="row">
+                <dt class="col-sm-4">Description</dt>
+                <dd class="col-sm-8">@Model.Description</dd>
+
+                <dt class="col-sm-4">Created At</dt>
+                <dd class="col-sm-8">@Model.CreatedAt</dd>
+
+                <dt class="col-sm-4">Customer</dt>
+                <dd class="col-sm-8">@Model.Customer?.Id</dd>
+
+                <dt class="col-sm-4">Article</dt>
+                <dd class="col-sm-8">@Model.article?.Désignation</dd>
+            </div>
+        </div>
+        <div class="card-footer text-center">
+            <!-- Delete Confirmation Form -->
+            <form asp-action="Delete" method="post">
+                <input type="hidden" asp-for="Id" />
+                <!-- Delete Button -->
+                <button type="submit" class="btn btn-danger w-100 mb-2">
+                    <i class="fas fa-trash-alt"></i> Supprimer
+                </button>
+            </form>
+            <!-- Cancel Button -->
+            <a asp-action="Index" class="btn btn-secondary w-100">Retourner a la list</a>
+        </div>
+    </div>
+</div>

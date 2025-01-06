@@ -1,0 +1,55 @@
+﻿@using Microsoft.AspNetCore.Identity
+@model IEnumerable<IdentityRole>
+
+@{
+    ViewData["Title"] = "All Roles";
+}
+
+<div class="container d-flex flex-column align-items-center mt-5">
+    <!-- Add New Role Button -->
+    <div class="mb-4">
+        <a asp-action="CreateRole" class="btn btn-primary btn-lg">
+            <i class="fas fa-plus"></i> Ajouter un Nouveau Rôle
+        </a>
+    </div>
+
+    <!-- Display Roles -->
+    @if (Model.Any())
+    {
+            <div class="row row-cols-1 row-cols-md-2 row-cols-lg-3 g-4">
+            @foreach (var role in Model)
+            {
+                        <div class="col">
+                            <div class="card shadow-lg border-0 rounded-3">
+                                <div class="card-header bg-info text-white">
+                                    <strong>ID du Rôle:</strong> @role.Id
+                                </div>
+                                <div class="card-body">
+                                    <h5 class="card-title text-center">@role.Name</h5>
+                                </div>
+                                <div class="card-footer d-flex justify-content-between">
+                                    <!-- Edit Role Button -->
+                                    <a asp-action="EditRole" asp-route-id="@role.Id" class="btn btn-warning btn-sm">
+                                        <i class="fas fa-edit"></i> Modifier
+                                    </a>
+
+                                    <!-- Delete Role Form -->
+                                    <form method="post" asp-action="DeleteRole" asp-route-id="@role.Id">
+                                        <button type="submit" class="btn btn-danger btn-sm">
+                                            <i class="fas fa-trash-alt"></i> Supprimer
+                                        </button>
+                                    </form>
+                                </div>
+                            </div>
+                        </div>
+            }
+            </div>
+    }
+    else
+    {
+            <div class="alert alert-info text-center">
+                <h4>Aucun rôle créé pour le moment.</h4>
+                <p>Cliquez sur le bouton ci-dessus pour créer un nouveau rôle.</p>
+            </div>
+    }
+</div>

@@ -1,0 +1,46 @@
+﻿@model MiniProjet.ViewModels.CreateViewModel 
+
+@{
+    ViewData["Title"] = "Create Article";
+}
+
+<div class="container d-flex flex-column align-items-center mt-5">
+    <!-- Card for Creating Article -->
+    <div class="card shadow-lg border-0 rounded-3 w-100" style="max-width: 600px;">
+        <div class="card-header bg-primary text-white text-center py-4">
+            <h3>Ajouter un Article</h3>
+        </div>
+        <div class="card-body px-4 py-5">
+            <!-- Form to create article -->
+            <form asp-action="Create" enctype="multipart/form-data">
+                <div asp-validation-summary="All" class="text-danger mb-4"></div>
+
+                <!-- Article Designation -->
+                <div class="mb-3">
+                    <label asp-for="Désignation" class="form-label">Désignation</label>
+                    <input asp-for="Désignation" class="form-control form-control-lg" placeholder="Entrez le nom de l'article" />
+                    <span asp-validation-for="Désignation" class="text-danger"></span>
+                </div>
+
+                <!-- Article Price -->
+                <div class="mb-3">
+                    <label asp-for="Prix" class="form-label">Prix</label>
+                    <input asp-for="Prix" class="form-control form-control-lg" placeholder="Entrez le prix" />
+                    <span asp-validation-for="Prix" class="text-danger"></span>
+                </div>
+
+                <!-- Article Image -->
+                <div class="mb-3">
+                    <label asp-for="ImagePath" class="form-label">Image</label>
+                    <input asp-for="ImagePath" type="file" class="form-control" />
+                    <span asp-validation-for="ImagePath" class="text-danger"></span>
+                </div>
+
+                <!-- Submit Button -->
+                <button type="submit" class="btn btn-success btn-lg w-100 py-2">
+                    <i class="fas fa-plus-circle"></i> Ajouter Article
+                </button>
+            </form>
+        </div>
+    </div>
+</div>

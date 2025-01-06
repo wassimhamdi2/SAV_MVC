@@ -1,0 +1,40 @@
+﻿@model MiniProjet.Models.Technicien
+
+@{
+    ViewData["Title"] = "Modifier";
+}
+
+<div class="card shadow-sm">
+    <div class="card-header bg-warning text-dark">
+        <h1>Modifier le Technicien</h1>
+    </div>
+    <div class="card-body">
+        <form asp-action="Edit">
+            <!-- Validation Summary -->
+            <div asp-validation-summary="ModelOnly" class="text-danger mb-3"></div>
+
+            <!-- Hidden ID Field -->
+            <input type="hidden" asp-for="Id" />
+
+            <!-- Name Input -->
+            <div class="form-group mb-3">
+                <label asp-for="Name" class="form-label">Nom</label>
+                <input asp-for="Name" class="form-control" />
+                <span asp-validation-for="Name" class="text-danger"></span>
+            </div>
+
+            <!-- Phone Input -->
+            <div class="form-group mb-3">
+                <label asp-for="Phone" class="form-label">Téléphone</label>
+                <input asp-for="Phone" class="form-control" />
+                <span asp-validation-for="Phone" class="text-danger"></span>
+            </div>
+
+            <!-- Submit and Cancel Buttons -->
+            <div class="form-group">
+                <button type="submit" class="btn btn-primary">Sauvegarder</button>
+                <a asp-action="Index" class="btn btn-secondary">Retour à la liste</a>
+            </div>
+        </form>
+    </div>
+</div>

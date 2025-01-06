@@ -1,0 +1,63 @@
+﻿@model MiniProjet.ViewModels.EditRoleViewModel
+
+@{
+    ViewData["Title"] = "Edit Role";
+}
+
+<div class="container d-flex align-items-center justify-content-center min-vh-100">
+    <div class="col-md-4">
+        <div class="card shadow-lg border-0 rounded-3">
+            <div class="card-header bg-gradient-warning text-white text-center rounded-3 py-4">
+                <h3>Modifier le Rôle</h3>
+                <p class="lead mb-0">Mettez à jour les informations du rôle</p>
+            </div>
+            <div class="card-body px-4 py-5">
+                <form method="post">
+                    <!-- Role ID (disabled) -->
+                    <div class="form-floating mb-3">
+                        <input asp-for="Id" disabled class="form-control" />
+                        <label asp-for="Id">ID du rôle</label>
+                    </div>
+
+                    <!-- Role Name -->
+                    <div class="form-floating mb-3">
+                        <input asp-for="RoleName" class="form-control form-control-lg" placeholder="Entrez le nom du rôle" />
+                        <label asp-for="RoleName">Nom du rôle</label>
+                        <span asp-validation-for="RoleName" class="text-danger"></span>
+                    </div>
+
+                    <div asp-validation-summary="All" class="text-danger mb-3"></div>
+
+                    <!-- Action Buttons -->
+                    <button type="submit" class="btn btn-success btn-lg w-100 py-2 mb-3">
+                        <i class="fas fa-save"></i> Mettre à jour
+                    </button>
+                    <a asp-action="ListRoles" class="btn btn-secondary w-100 py-2">
+                        <i class="fas fa-times-circle"></i> Annuler
+                    </a>
+                </form>
+            </div>
+
+            <!-- Users in this Role -->
+            <div class="card-footer">
+                <h5>Utilisateurs dans ce rôle :</h5>
+                <ul class="list-group">
+                    @if (Model.Users.Any())
+                    {
+                        foreach (var user in Model.Users)
+                        {
+                                    <li class="list-group-item">@user</li>
+                        }
+                    }
+                    else
+                    {
+                            <li class="list-group-item">Aucun utilisateur dans ce rôle.</li>
+                    }
+                </ul>
+                <a asp-controller="Admin" asp-action="EditUsersInRole" asp-route-roleId="@Model.Id" class="btn btn-primary mt-3 w-100">
+                    <i class="fas fa-user-edit"></i> Gérer les utilisateurs
+                </a>
+            </div>
+        </div>
+    </div>
+</div>

@@ -1,0 +1,56 @@
+﻿@model MiniProjet.ViewModels.EditViewModel
+
+@{
+    ViewBag.Title = "Edit Article";
+    var photoPath = "~/images/" + (Model.ExistingImagePath ?? "noimage.jpg");
+}
+
+<div class="container mt-5">
+    <!-- Edit Article Card -->
+    <div class="card shadow-lg">
+        <div class="card-header bg-warning text-white">
+            <h3>Modifier Article</h3>
+        </div>
+        <div class="card-body">
+            <!-- Form for editing article -->
+            <form asp-action="Edit" enctype="multipart/form-data" method="post">
+                <div asp-validation-summary="All" class="text-danger mb-3"></div>
+
+                <!-- Hidden Fields for Id and Existing Image Path -->
+                <input type="hidden" asp-for="Id" />
+                <input type="hidden" asp-for="ExistingImagePath" />
+
+                <!-- Désignation Field -->
+                <div class="mb-3">
+                    <label asp-for="Désignation" class="form-label">Désignation</label>
+                    <input asp-for="Désignation" class="form-control" placeholder="Enter article name" />
+                    <span asp-validation-for="Désignation" class="text-danger"></span>
+                </div>
+
+                <!-- Prix Field -->
+                <div class="mb-3">
+                    <label asp-for="Prix" class="form-label">Prix</label>
+                    <input asp-for="Prix" class="form-control" placeholder="Enter price" />
+                    <span asp-validation-for="Prix" class="text-danger"></span>
+                </div>
+
+                <!-- Image Upload Field -->
+                <div class="mb-3">
+                    <label asp-for="ImagePath" class="form-label">Change Image</label>
+                    <input asp-for="ImagePath" type="file" class="form-control" />
+                    <!-- Display current image -->
+                    <img src="@photoPath" asp-append-version="true" class="img-thumbnail mt-2" style="max-width: 150px;" />
+                    <span asp-validation-for="ImagePath" class="text-danger"></span>
+                </div>
+
+                <!-- Submit Button -->
+                <button type="submit" class="btn btn-primary w-100">
+                    <i class="fas fa-save"></i> Modifier
+                </button>
+
+                <!-- Cancel Button -->
+                <a asp-action="Index" class="btn btn-secondary w-100 mt-2">Cancel</a>
+            </form>
+        </div>
+    </div>
+</div>

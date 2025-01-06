@@ -1,0 +1,325 @@
+{
+  "Files": [
+    {
+      "Id": "C:\\Users\\Wassim\\Desktop\\Nouveau dossier\\MiniProjet\\MiniProjet\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\MiniProjet.bundle.scp.css",
+      "PackagePath": "staticwebassets\\MiniProjet.bundle.scp.css"
+    },
+    {
+      "Id": "C:\\Users\\Wassim\\Desktop\\Nouveau dossier\\MiniProjet\\MiniProjet\\wwwroot\\css\\site.css",
+      "PackagePath": "staticwebassets\\css\\site.css"
+    },
+    {
+      "Id": "C:\\Users\\Wassim\\Desktop\\Nouveau dossier\\MiniProjet\\MiniProjet\\wwwroot\\favicon.ico",
+      "PackagePath": "staticwebassets\\favicon.ico"
+    },
+    {
+      "Id": "C:\\Users\\Wassim\\Desktop\\Nouveau dossier\\MiniProjet\\MiniProjet\\wwwroot\\images\\0ab53d02-d603-4477-8c7f-08d304c4c1ee_luffy.png",
+      "PackagePath": "staticwebassets\\images\\0ab53d02-d603-4477-8c7f-08d304c4c1ee_luffy.png"
+    },
+    {
+      "Id": "C:\\Users\\Wassim\\Desktop\\Nouveau dossier\\MiniProjet\\MiniProjet\\wwwroot\\images\\14d770b0-8201-4527-b220-cb22d667243e_tv.jpg",
+      "PackagePath": "staticwebassets\\images\\14d770b0-8201-4527-b220-cb22d667243e_tv.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Wassim\\Desktop\\Nouveau dossier\\MiniProjet\\MiniProjet\\wwwroot\\images\\265ac367-e54d-4029-ad82-2aecd946f5ae_tv.jpg",
+      "PackagePath": "staticwebassets\\images\\265ac367-e54d-4029-ad82-2aecd946f5ae_tv.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Wassim\\Desktop\\Nouveau dossier\\MiniProjet\\MiniProjet\\wwwroot\\images\\29e48f86-5470-41f4-b0f6-ad5c3a663382_faucet.jpg",
+      "PackagePath": "staticwebassets\\images\\29e48f86-5470-41f4-b0f6-ad5c3a663382_faucet.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Wassim\\Desktop\\Nouveau dossier\\MiniProjet\\MiniProjet\\wwwroot\\images\\2bef8f50-9235-40fe-a7f1-9c5d8bbbdf58_iphone.jpg",
+      "PackagePath": "staticwebassets\\images\\2bef8f50-9235-40fe-a7f1-9c5d8bbbdf58_iphone.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Wassim\\Desktop\\Nouveau dossier\\MiniProjet\\MiniProjet\\wwwroot\\images\\b40056e6-0aea-48e0-994e-40dbe310d634_movie.PNG",
+      "PackagePath": "staticwebassets\\images\\b40056e6-0aea-48e0-994e-40dbe310d634_movie.PNG"
+    },
+    {
+      "Id": "C:\\Users\\Wassim\\Desktop\\Nouveau dossier\\MiniProjet\\MiniProjet\\wwwroot\\images\\cd6ef28c-aa82-4268-90e1-6d9ab3b06bde_luffy.png",
+      "PackagePath": "staticwebassets\\images\\cd6ef28c-aa82-4268-90e1-6d9ab3b06bde_luffy.png"
+    },
+    {
+      "Id": "C:\\Users\\Wassim\\Desktop\\Nouveau dossier\\MiniProjet\\MiniProjet\\wwwroot\\images\\iphone.jpg",
+      "PackagePath": "staticwebassets\\images\\iphone.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Wassim\\Desktop\\Nouveau dossier\\MiniProjet\\MiniProjet\\wwwroot\\images\\noacess.png",
+      "PackagePath": "staticwebassets\\images\\noacess.png"
+    },
+    {
+      "Id": "C:\\Users\\Wassim\\Desktop\\Nouveau dossier\\MiniProjet\\MiniProjet\\wwwroot\\images\\noacess1.png",
+      "PackagePath": "staticwebassets\\images\\noacess1.png"
+    },
+    {
+      "Id": "C:\\Users\\Wassim\\Desktop\\Nouveau dossier\\MiniProjet\\MiniProjet\\wwwroot\\images\\noimage.jpg",
+      "PackagePath": "staticwebassets\\images\\noimage.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Wassim\\Desktop\\Nouveau dossier\\MiniProjet\\MiniProjet\\wwwroot\\images\\sav.png",
+      "PackagePath": "staticwebassets\\images\\sav.png"
+    },
+    {
+      "Id": "C:\\Users\\Wassim\\Desktop\\Nouveau dossier\\MiniProjet\\MiniProjet\\wwwroot\\images\\sav2.png",
+      "PackagePath": "staticwebassets\\images\\sav2.png"
+    },
+    {
+      "Id": "C:\\Users\\Wassim\\Desktop\\Nouveau dossier\\MiniProjet\\MiniProjet\\wwwroot\\js\\site.js",
+      "PackagePath": "staticwebassets\\js\\site.js"
+    },
+    {
+      "Id": "C:\\Users\\Wassim\\Desktop\\Nouveau dossier\\MiniProjet\\MiniProjet\\wwwroot\\lib\\bootstrap\\LICENSE",
+      "PackagePath": "staticwebassets\\lib\\bootstrap"
+    },
+    {
+      "Id": "C:\\Users\\Wassim\\Desktop\\Nouveau dossier\\MiniProjet\\MiniProjet\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css"
+    },
+    {
+      "Id": "C:\\Users\\Wassim\\Desktop\\Nouveau dossier\\MiniProjet\\MiniProjet\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map"
+    },
+    {
+      "Id": "C:\\Users\\Wassim\\Desktop\\Nouveau dossier\\MiniProjet\\MiniProjet\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css"
+    },
+    {
+      "Id": "C:\\Users\\Wassim\\Desktop\\Nouveau dossier\\MiniProjet\\MiniProjet\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\Wassim\\Desktop\\Nouveau dossier\\MiniProjet\\MiniProjet\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css"
+    },
+    {
+      "Id": "C:\\Users\\Wassim\\Desktop\\Nouveau dossier\\MiniProjet\\MiniProjet\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map"
+    },
+    {
+      "Id": "C:\\Users\\Wassim\\Desktop\\Nouveau dossier\\MiniProjet\\MiniProjet\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css"
+    },
+    {
+      "Id": "C:\\Users\\Wassim\\Desktop\\Nouveau dossier\\MiniProjet\\MiniProjet\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\Wassim\\Desktop\\Nouveau dossier\\MiniProjet\\MiniProjet\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css"
+    },
+    {
+      "Id": "C:\\Users\\Wassim\\Desktop\\Nouveau dossier\\MiniProjet\\MiniProjet\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map"
+    },
+    {
+      "Id": "C:\\Users\\Wassim\\Desktop\\Nouveau dossier\\MiniProjet\\MiniProjet\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css"
+    },
+    {
+      "Id": "C:\\Users\\Wassim\\Desktop\\Nouveau dossier\\MiniProjet\\MiniProjet\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\Wassim\\Desktop\\Nouveau dossier\\MiniProjet\\MiniProjet\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css"
+    },
+    {
+      "Id": "C:\\Users\\Wassim\\Desktop\\Nouveau dossier\\MiniProjet\\MiniProjet\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map"
+    },
+    {
+      "Id": "C:\\Users\\Wassim\\Desktop\\Nouveau dossier\\MiniProjet\\MiniProjet\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css"
+    },
+    {
+      "Id": "C:\\Users\\Wassim\\Desktop\\Nouveau dossier\\MiniProjet\\MiniProjet\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\Wassim\\Desktop\\Nouveau dossier\\MiniProjet\\MiniProjet\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css"
+    },
+    {
+      "Id": "C:\\Users\\Wassim\\Desktop\\Nouveau dossier\\MiniProjet\\MiniProjet\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map"
+    },
+    {
+      "Id": "C:\\Users\\Wassim\\Desktop\\Nouveau dossier\\MiniProjet\\MiniProjet\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css"
+    },
+    {
+      "Id": "C:\\Users\\Wassim\\Desktop\\Nouveau dossier\\MiniProjet\\MiniProjet\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\Wassim\\Desktop\\Nouveau dossier\\MiniProjet\\MiniProjet\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css"
+    },
+    {
+      "Id": "C:\\Users\\Wassim\\Desktop\\Nouveau dossier\\MiniProjet\\MiniProjet\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map"
+    },
+    {
+      "Id": "C:\\Users\\Wassim\\Desktop\\Nouveau dossier\\MiniProjet\\MiniProjet\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css"
+    },
+    {
+      "Id": "C:\\Users\\Wassim\\Desktop\\Nouveau dossier\\MiniProjet\\MiniProjet\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\Wassim\\Desktop\\Nouveau dossier\\MiniProjet\\MiniProjet\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.css"
+    },
+    {
+      "Id": "C:\\Users\\Wassim\\Desktop\\Nouveau dossier\\MiniProjet\\MiniProjet\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.css.map"
+    },
+    {
+      "Id": "C:\\Users\\Wassim\\Desktop\\Nouveau dossier\\MiniProjet\\MiniProjet\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.min.css"
+    },
+    {
+      "Id": "C:\\Users\\Wassim\\Desktop\\Nouveau dossier\\MiniProjet\\MiniProjet\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\Wassim\\Desktop\\Nouveau dossier\\MiniProjet\\MiniProjet\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css"
+    },
+    {
+      "Id": "C:\\Users\\Wassim\\Desktop\\Nouveau dossier\\MiniProjet\\MiniProjet\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map"
+    },
+    {
+      "Id": "C:\\Users\\Wassim\\Desktop\\Nouveau dossier\\MiniProjet\\MiniProjet\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css"
+    },
+    {
+      "Id": "C:\\Users\\Wassim\\Desktop\\Nouveau dossier\\MiniProjet\\MiniProjet\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\Wassim\\Desktop\\Nouveau dossier\\MiniProjet\\MiniProjet\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap1.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap1.css"
+    },
+    {
+      "Id": "C:\\Users\\Wassim\\Desktop\\Nouveau dossier\\MiniProjet\\MiniProjet\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap1.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap1.min.css"
+    },
+    {
+      "Id": "C:\\Users\\Wassim\\Desktop\\Nouveau dossier\\MiniProjet\\MiniProjet\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js"
+    },
+    {
+      "Id": "C:\\Users\\Wassim\\Desktop\\Nouveau dossier\\MiniProjet\\MiniProjet\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map"
+    },
+    {
+      "Id": "C:\\Users\\Wassim\\Desktop\\Nouveau dossier\\MiniProjet\\MiniProjet\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js"
+    },
+    {
+      "Id": "C:\\Users\\Wassim\\Desktop\\Nouveau dossier\\MiniProjet\\MiniProjet\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map"
+    },
+    {
+      "Id": "C:\\Users\\Wassim\\Desktop\\Nouveau dossier\\MiniProjet\\MiniProjet\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js"
+    },
+    {
+      "Id": "C:\\Users\\Wassim\\Desktop\\Nouveau dossier\\MiniProjet\\MiniProjet\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map"
+    },
+    {
+      "Id": "C:\\Users\\Wassim\\Desktop\\Nouveau dossier\\MiniProjet\\MiniProjet\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js"
+    },
+    {
+      "Id": "C:\\Users\\Wassim\\Desktop\\Nouveau dossier\\MiniProjet\\MiniProjet\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map"
+    },
+    {
+      "Id": "C:\\Users\\Wassim\\Desktop\\Nouveau dossier\\MiniProjet\\MiniProjet\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.js"
+    },
+    {
+      "Id": "C:\\Users\\Wassim\\Desktop\\Nouveau dossier\\MiniProjet\\MiniProjet\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.js.map"
+    },
+    {
+      "Id": "C:\\Users\\Wassim\\Desktop\\Nouveau dossier\\MiniProjet\\MiniProjet\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.min.js"
+    },
+    {
+      "Id": "C:\\Users\\Wassim\\Desktop\\Nouveau dossier\\MiniProjet\\MiniProjet\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map"
+    },
+    {
+      "Id": "C:\\Users\\Wassim\\Desktop\\Nouveau dossier\\MiniProjet\\MiniProjet\\wwwroot\\lib\\jquery-validation-unobtrusive\\LICENSE.txt",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\LICENSE.txt"
+    },
+    {
+      "Id": "C:\\Users\\Wassim\\Desktop\\Nouveau dossier\\MiniProjet\\MiniProjet\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js"
+    },
+    {
+      "Id": "C:\\Users\\Wassim\\Desktop\\Nouveau dossier\\MiniProjet\\MiniProjet\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js"
+    },
+    {
+      "Id": "C:\\Users\\Wassim\\Desktop\\Nouveau dossier\\MiniProjet\\MiniProjet\\wwwroot\\lib\\jquery-validation\\LICENSE.md",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\LICENSE.md"
+    },
+    {
+      "Id": "C:\\Users\\Wassim\\Desktop\\Nouveau dossier\\MiniProjet\\MiniProjet\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\additional-methods.js"
+    },
+    {
+      "Id": "C:\\Users\\Wassim\\Desktop\\Nouveau dossier\\MiniProjet\\MiniProjet\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\additional-methods.min.js"
+    },
+    {
+      "Id": "C:\\Users\\Wassim\\Desktop\\Nouveau dossier\\MiniProjet\\MiniProjet\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\jquery.validate.js"
+    },
+    {
+      "Id": "C:\\Users\\Wassim\\Desktop\\Nouveau dossier\\MiniProjet\\MiniProjet\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\jquery.validate.min.js"
+    },
+    {
+      "Id": "C:\\Users\\Wassim\\Desktop\\Nouveau dossier\\MiniProjet\\MiniProjet\\wwwroot\\lib\\jquery\\LICENSE.txt",
+      "PackagePath": "staticwebassets\\lib\\jquery\\LICENSE.txt"
+    },
+    {
+      "Id": "C:\\Users\\Wassim\\Desktop\\Nouveau dossier\\MiniProjet\\MiniProjet\\wwwroot\\lib\\jquery\\dist\\jquery.js",
+      "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.js"
+    },
+    {
+      "Id": "C:\\Users\\Wassim\\Desktop\\Nouveau dossier\\MiniProjet\\MiniProjet\\wwwroot\\lib\\jquery\\dist\\jquery.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.min.js"
+    },
+    {
+      "Id": "C:\\Users\\Wassim\\Desktop\\Nouveau dossier\\MiniProjet\\MiniProjet\\wwwroot\\lib\\jquery\\dist\\jquery.min.map",
+      "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.min.map"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.MiniProjet.Microsoft.AspNetCore.StaticWebAssets.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssets.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.build.MiniProjet.props",
+      "PackagePath": "build\\MiniProjet.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.buildMultiTargeting.MiniProjet.props",
+      "PackagePath": "buildMultiTargeting\\MiniProjet.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.buildTransitive.MiniProjet.props",
+      "PackagePath": "buildTransitive\\MiniProjet.props"
+    }
+  ],
+  "ElementsToRemove": []
+}

@@ -1,0 +1,28 @@
+﻿@model MiniProjet.Models.Technicien
+
+@{
+    ViewData["Title"] = "Détails";
+}
+
+<div class="card shadow-sm">
+    <div class="card-header bg-info text-white">
+        <h1>Détails du Technicien</h1>
+    </div>
+    <div class="card-body">
+        <!-- Display Technician Details -->
+        <dl class="row">
+            <dt class="col-sm-4">Nom</dt>
+            <dd class="col-sm-8">@Html.DisplayFor(model => model.Name)</dd>
+
+            <dt class="col-sm-4">Téléphone</dt>
+            <dd class="col-sm-8">@Html.DisplayFor(model => model.Phone)</dd>
+        </dl>
+    </div>
+    <div class="card-footer d-flex justify-content-between">
+        <!-- Edit Button -->
+        <a asp-action="Edit" asp-route-id="@Model?.Id" class="btn btn-warning">Modifier</a>
+
+        <!-- Back to List Button -->
+        <a asp-action="Index" class="btn btn-secondary">Retour à la liste</a>
+    </div>
+</div>
